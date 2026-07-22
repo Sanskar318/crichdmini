@@ -24,7 +24,7 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run match.py
-      run: python match.py
+      run: python willow_scraper.py
 
     - name: Commit and push if there are changes
       run: |
